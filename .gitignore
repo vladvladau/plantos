@@ -1,0 +1,24 @@
+# Ignore everything in the ESP-IDF build directory
+plantos-esp32/build/
+
+# ESP-IDF config and backup files
+plantos-esp32/sdkconfig
+plantos-esp32/sdkconfig.old
+
+# Binary and map output files
+plantos-esp32/*.bin
+plantos-esp32/*.elf
+plantos-esp32/*.map
+plantos-esp32/*.log
+
+# Editor/IDE config
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+.env/
+
